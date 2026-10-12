@@ -1,0 +1,17 @@
+[project]
+name = "planta-fisica-equipo2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "A01662054", email = "A01662054@tec.mx" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+planta-fisica-equipo2 = "planta_fisica_equipo2:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
